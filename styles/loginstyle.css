@@ -1,0 +1,184 @@
+/*LOGIN PAGE*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}   
+
+.top-span {
+    position: fixed; 
+    top: 0;
+    margin-top: 115px;
+    left: 10;
+    width: 75%; 
+    background-color: #000000; 
+    text-shadow: 5px 5px 10px rgba(255, 255, 255, 0.8);
+    text-align: center;
+    font-weight: 999; 
+    padding: 0;
+    z-index: 1000; 
+    letter-spacing: 2px;
+}
+
+.bottom{
+    font-size: 40px;
+    text-align: end;
+    width: 75%; 
+    background-color: #000000; 
+    color: rgb(83, 160, 248); 
+    z-index: 1000; 
+    float: right;
+    
+}
+
+.msg {
+    margin-top: auto;
+    color: #969494;
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+.msg a {
+    color: aqua;
+    text-decoration: none;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: black;
+   
+}
+
+.container {
+    width: 300%;
+    max-width: 400px;
+    padding: 40px;
+    background-color: #eff3f2;
+    border-radius: 10px;
+    box-shadow: 0px 20px 40px rgba(100, 100, 100, 0.35);
+    transform: translateY(-10px);
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+}
+
+h2 {
+    margin-bottom: 20px;
+    color: #000000;
+    font-weight: 999;
+    font-size: 40px;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    font-stretch: expanded;
+    text-shadow: 3px 3px 4px rgba(0, 0, 0, 0.5); /*SHADOW*/
+    display: inline-block; /*GRADIENT APPLY FOR WHOLE LETTERS*/
+
+}
+
+input {
+    width: 100%;
+    padding:15px;
+    font-size: 15px;
+    margin: 12px auto;
+    border: 1px solid #6b6b6b;
+    background-blend-mode: color-burn;
+    border-radius: 5px;
+    outline: none;
+    transition: border-color 0.3s;
+    background-color: #f6f8f8;
+    display: block; 
+    text-align: left;
+    color:#000000;
+    margin-bottom: 30px;
+    border-radius: 12px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2), -5px -5px 15px rgba(255, 255, 255, 0.1); /* INNER AND OUTER SHADOWS */
+
+  }
+
+input:focus {
+    border-color: #236b9b;
+}
+
+button {
+    width: 45%;
+    background: linear-gradient(145deg, #000000, #000000); /* 3D LOOK */
+    border: none;
+    border-radius: 25px;
+    color: white;
+    padding: 15px 15px;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3), -5px -5px 15px rgba(255, 255, 255, 0.1); /* SHADOWS */
+    transition: all 0.3s ease-in-out;
+    margin-top: 15px;
+    margin-bottom: auto;
+    transform: translateY(-10px); /* LIFT THE */
+
+}
+
+button:hover {
+    background-image: radial-gradient(ellipse, #2b2b2b, #000000);
+    color: #ffffff;
+    padding: 16px 16px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5), -5px -5px 15px rgba(255, 255, 255, 0.1); /* SHADOWS */
+    transform: translateY(-12px); /* MOVE THE BUTTON LITTLEBIT */  
+}
+
+.message {
+    margin-top: auto;
+    color: #ffffff;
+    font-size: 17px;
+}
+
+.message a {
+    color: #000000;
+    text-decoration: none;
+    font-weight: bold;
+    text-decoration: underline;
+    font-family: 'Source Sans Pro', sans-serif;
+
+}
+.message :hover {
+    font-size: large;
+    font-weight: bolder;
+}
+
+input[type="submit"] {
+    background-color: #000000;
+    color: white;
+    text-align: center;
+    padding: 12px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 200px !important;
+    margin-bottom: 15px;
+    box-shadow: 5px 5px 10px rgba(1, 0, 0, 0.5);
+    transform: translateY(-10px);
+}
+
+input[type="submit"]:hover {
+    background-color: #222222;
+    transform: translateY(-12px);
+
+}
+
+
+
+
